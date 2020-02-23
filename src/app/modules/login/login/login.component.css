@@ -1,0 +1,11 @@
+mat-form-field {
+  width: 100%;
+}
+
+.container{
+  min-height:100vh;
+  padding-top: 35vh;
+  padding-right: 60vw;
+  padding-left: 32px;
+}
+
