@@ -4,8 +4,36 @@ mat-form-field {
 
 .container{
   min-height:100vh;
+  text-align: -webkit-center;
+  height: 100%;
+}
+.centered-form{
   padding-top: 35vh;
-  padding-right: 60vw;
   padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
+}
+
+.top-separator-big{
+  padding-top: 32px
+}
+
+.top-separator-med{
+  padding-top: 16px
+}
+
+.w-button{
+  width: 100%;
+}
+
+.login-image{
+  padding-left: 128px;
+  max-width: 800px
+}
+
+@media (max-width: 1200px) {
+  .login-image{
+    display: none;
+  }
 }
 
